@@ -14,7 +14,16 @@ typedef struct type
 int _printf(const char *format, ...);
 int (*get_func(const char *specifier))(va_list);
 int _putchar(char c);
+int print_number(unsigned int n);
+int countdigits(unsigned int num);
+int countBinary(unsigned int num);
+int print_upperHex(unsigned int num, int *count);
+int print_lowerHex(unsigned int num, int *count);
 int print_c(va_list args);
 int print_s(va_list args);
+int print_d(va_list args);
+int print_b(va_list args);
+int print_x(va_list args);
+int print-X(va_list args);
 
 #endif
