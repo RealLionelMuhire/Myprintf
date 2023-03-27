@@ -14,7 +14,7 @@ int print_b(va_list args)
 		_putchar(0 + '0');
 		return (1);
 	}
-	count += CountBinary(decimalNumber);
+	count += countBinary(decimalNumber);
 	string = malloc(sizeof(char) * (count + 1));
 
 	if (string == NULL)

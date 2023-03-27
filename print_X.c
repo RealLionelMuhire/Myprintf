@@ -37,7 +37,7 @@ int print_X(va_list args)
 {
 	int count = 0;
 
-	print_upperHex(va_arg(args, int), count);
+	print_upperHex(va_arg(args, int), &count);
 
 	return (count);
 }

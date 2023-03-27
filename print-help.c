@@ -9,7 +9,7 @@
 int print_number(unsigned int n)
 {
 	int retval;
-	undigned int num = n;
+	unsigned int num = n;
 
 	if (num / 10)
 		print_number(num / 10);
