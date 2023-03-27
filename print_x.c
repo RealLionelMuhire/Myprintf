@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void Print_lowerHex(unsigned int num, int *count)
+void print_lowerHex(unsigned int num, int *count)
 {
 	int retVal;
 
