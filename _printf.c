@@ -29,15 +29,13 @@ int _printf(const char *format, ...)
 			else if (func == NULL)
 			{
 				_putchar('%');
-				if (*format != '\0')
-				{
-					_putchar(*format);
-					count += 2;
-				}
-				else
-					return (-1);
+				_putchar(*format);
+				count += 2;
 			}
-			count += func(args);
+			else
+			{
+				count += func(args);
+			}
 		}
 		else if (*format == '%' && *(format + 1) == '%')
 		{
