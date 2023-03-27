@@ -56,3 +56,22 @@ int countBinary(unsigned int num)
 	}
 	return (count);
 }
+
+/**
+ * countOctal - count how may Octal number in in num
+ * @num: the number
+ *
+ * Return: the total octal count
+ */
+
+int countOctal(unsigned int num)
+{
+	int count = 0;
+
+	while (num > 0)
+	{
+		count++;
+		num /= 8;
+	}
+	return (count);
+}
