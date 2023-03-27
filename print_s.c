@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_s - prints a string
+ * @args: arguments to string to be printed
+ * Return: counts of charcters printed
+ */
+
 int print_s(va_list args)
 {
 	char *str = va_arg(args, char*);
