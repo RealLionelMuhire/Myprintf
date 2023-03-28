@@ -75,3 +75,18 @@ int countOctal(unsigned int num)
 	}
 	return (count);
 }
+/**
+ * _strlen - count the number of characters
+ * @str: points to string
+ *
+ * Return: number of characters
+ */
+int _strlen(char *str)
+{
+	int count = 0;
+
+	while (*(str + count))
+		count++;
+
+	return (count);
+}

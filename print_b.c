@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ * print_b - prints binary number
+ * @args: number
+ *
+ * Return: number of chars
  */
 int print_b(va_list args)
 {

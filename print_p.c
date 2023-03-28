@@ -1,6 +1,11 @@
 #include "main.h"
 
 /**
+ * print_pointer - prints unsigned long int in hexadecimal
+ * @ptr: pointer to print
+ * @count: number of bytes printed
+ *
+ * Return: void
  */
 void print_pointer(unsigned long ptr, int *count)
 {
@@ -21,6 +26,10 @@ void print_pointer(unsigned long ptr, int *count)
 }
 
 /**
+ * print_p - print pointer in lowercase hexadecimal format
+ * @args: pointer to print nextelements
+ *
+ * Return: number of bytes
  */
 int print_p(va_list args)
 {
