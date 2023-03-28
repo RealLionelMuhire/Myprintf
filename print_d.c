@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ * print_d - prints decimal number
+ * @args: number 
+ *
+ * Return: count
  */
 int print_d(va_list args)
 {
